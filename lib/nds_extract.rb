@@ -1,6 +1,6 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
-
+require 'pp'
 def directors_totals(source)
   result = {}
   director_index = 0
@@ -25,6 +25,7 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
+  pp source
   # Write this implementation
 end
 
@@ -41,4 +42,4 @@ def total_gross(source)
   return total
 end
 
-
+list_of_directors(source)
