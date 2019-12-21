@@ -48,7 +48,8 @@ def total_gross(source)
   # return the total
   while index < list_of_directors.length
   total += directors_totals[list_of_directors[index]]
-  return total
+end
+return total
 end
 
 
