@@ -26,7 +26,7 @@ end
 
 def list_of_directors(source)
   director_index = 0
-  source[director_index][:name]
+  source[director_index]
   # Write this implementation
 end
 
