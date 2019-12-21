@@ -54,4 +54,4 @@ return total
 end
 
 
-pp directors_totals(directors_database)[:name]
+pp directors_totals(directors_database)
